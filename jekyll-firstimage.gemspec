@@ -17,10 +17,10 @@ Gem::Specification.new do |spec|
     A Jekyll plugin that adds a Liquid filter finding the first image in a HTML content string, including responsive images srcset
   DESC
 
-  spec.add_runtime_dependency "jekyll", "~> 3.6"
+  spec.add_runtime_dependency "jekyll", ">= 3.6", "< 5"
   spec.add_runtime_dependency "nokogiri", "~> 1.8"
 
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 12.0"
-  spec.add_development_dependency "rubocop", "~> 0.55.0"
+  spec.add_development_dependency "rubocop", "~> 0.74.0"
 end
