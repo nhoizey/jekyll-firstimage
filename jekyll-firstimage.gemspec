@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.homepage = "https://nhoizey.github.io/jekyll-firstimage/"
   spec.authors = ["Nicolas Hoizey"]
   spec.email = ["nicolas@hoizey.com"]
-  spec.files = %w(Rakefile Gemfile README.md RELEASES.md LICENSE) + Dir["lib/**/*"]
+  spec.files = %w(Rakefile Gemfile README.md CHANGELOG.md LICENSE) + Dir["lib/**/*"]
   spec.summary = "A Jekyll plugin that adds a Liquid filter finding the first image in a HTML content string, including responsive images srcset"
   spec.name = "jekyll-firstimage"
   spec.license = "MIT"
